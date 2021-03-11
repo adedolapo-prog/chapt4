@@ -29,7 +29,7 @@ console.log(figure1, figure2);
 
 //using concatenation
 const lastName = 'Huey';
-console.log(name + lastName);
+console.log(name + " " + lastName);
 
 //using conditional statement
 let unmatch;
@@ -46,18 +46,20 @@ if (figure1 < figure2 || figure2 * newfig1 > figure1 * newfig2) {
 } else {
 	newUnmatch = false;
 }
-console.log("Using this statement, we can see that it is" + newUnmatch);
+console.log("Using this statement, we can see that it is " + newUnmatch);
 
 //ternary operator
 figure1 / 3 > figure2 / 4 ? console.log("wonderful") : console.log("too bad!!");
 
 //using arrays and their properties
 const pens = ["blue", "green", "red", "orange"];
-console.log("The Array includes: " + pens + "." += "Array length: ", pens.length);
+console.log("The Array includes: " + pens + ". " + "Array length: ", pens.length);
 
 console.log("To reverse this array, we use ", pens.reverse()); //reversing the order of the array
 
-console log("use " + pens.shift() + "to remove the first value."); //this is to remove the first value of the array
+pens.shift(); //this is to remove the first value of the array
 
 pens.unshift("purple", "pink"); //to add elements to the beginning of the array
 
+pens.pop(); //this removes the last element in the array
+console.log(pens);
