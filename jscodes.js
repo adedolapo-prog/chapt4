@@ -27,3 +27,23 @@ figure1 += 12;
 figure2 -= 3;
 console.log(figure1, figure2);
 
+//using concatenation
+const lastName = 'Huey';
+console.log(name + lastName);
+
+//using conditional statement
+let unmatch;
+if (figure1 > figure2) {
+	unmatch = true;
+} else {
+	unmatch = false;
+}
+console.log("This statement is " + unmatch);
+
+//advanced logical statement
+if (figure1 < figure2 || figure2 * newfig1 > figure1 * newfig2) {
+	newUnmatch = true;
+} else {
+	newUnmatch = false;
+}
+console.log("Using this statement, we can see that it is" + newUnmatch);
