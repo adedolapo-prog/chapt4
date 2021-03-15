@@ -63,3 +63,19 @@ const furnitures = [['wing chair', 'deck chair', 'sofa'], ['round table', 'desk'
 
 const locations = [['Canada', 'USA', 'UK'], ['Mount Kilimanjaro', 'Everest', 'Mount Fuji'], ['lake Baikal', 'lake Michigan', 'lake Huron']];
 
+
+//an array with two objects as its elements
+
+const vehicle = [
+	{
+		color: 'blue',
+		type: 'wagon',
+		capacity: 4,
+	}
+
+	{
+		color: 'grey',
+		type: 'suv',
+		capacity: 8,
+	}
+]
